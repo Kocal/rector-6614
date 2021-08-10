@@ -20,7 +20,8 @@ class AddRouteAnnotationToPages extends AbstractRector
      */
     public function refactor(Node $node)
     {
-        echo $this->parameterProvider->provideParameter('app.pages.directory');
+        $pagesDirectory = $this->parameterProvider->provideParameter('app.pages.directory');
+        // do something with $pagesDirectory ...
 
         return $node;
     }
