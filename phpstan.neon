@@ -1,0 +1,8 @@
+parameters:
+    level: 5
+    paths:
+        - src
+        - rector
+    parallel:
+        processTimeout: 120.0
+    inferPrivatePropertyTypeFromConstructor: true
